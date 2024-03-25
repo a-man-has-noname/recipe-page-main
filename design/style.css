@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.attribution {
+  font-size: 10px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  margin: 0px;
+  color: black; /* Darker text color for better readability */
+  font-family: "Outfit";
+  background-color: hsl(0, 0%, 100%);
+  font-weight: 300;
+  font-size: 16px;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.container {
+  padding: 20px;
+}
+#header {
+  font-family: "Young Serif";
+  color: black;
+  font-weight: 700;
+  font-size: 40px;
+}
+.header-content {
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+#prep {
+  padding: 30px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 5px;
+}
+.prep-header {
+  color: hsl(332, 51%, 32%);
+  font-weight: 700;
+}
+.prep-list li::marker {
+  color: hsl(332, 51%, 32%);
+}
+.prep-list ul li {
+  margin: 15px 0 15px 0;
+}
+span {
+  font-weight: 600;
+}
+#ingredients {
+  margin: 20px 0 20px 0;
+}
+#ing-header,
+.ins-header,
+.nut-header {
+  font-family: "Young Serif";
+  color: hsl(14, 45%, 36%);
+  font-weight: 400;
+  font-size: 25px;
+}
+.ing-list li,
+.ins-list li {
+  margin-left: -15px;
+  padding-left: 12px;
+  margin: 10px 0 10px 0;
+}
+.ing-list li::marker,
+.ins-list li::marker {
+  color: hsl(14, 45%, 36%);
+}
+hr {
+  border-style: inset;
+}
+.ins-list li::marker {
+  font-weight: 600;
+}
+.nut-cap {
+  margin: 20px 0 20px 0;
+}
+.nut-table-container {
+  display: flex;
+  justify-content: center;
+}
+.nut-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.nut-table > * {
+  flex: 1 50%;
+}
+
+.nut-values {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+  text-align: left;
+}
+
+@media screen and (min-width: 750px) {
+  body {
+    padding: 10% 20% 10% 20%;
+    background-color: hsl(30, 54%, 90%);
+    font-size: 17px;
+  }
+  .content {
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  img {
+    border-radius: 10px;
+    width: 100%;
+  }
+  #header {
+    font-family: "Young Serif";
+    color: black;
+    font-weight: 400;
+    font-size: 45px;
+    margin: 20px 0 20px 0;
+  }
+  .prep-header {
+    font-size: 23px;
+  }
+  .nut-table-container div {
+    flex-grow: 1;
+  }
+}
